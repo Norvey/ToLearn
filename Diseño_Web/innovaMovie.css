@@ -58,8 +58,7 @@ body{
 .container
 {
     display: grid;
-    grid-template-columns: 10% 1fr;
-    border: solid;
+    grid-template-columns: 5% 1fr;
     height: 100vh;
 
 }
@@ -67,6 +66,45 @@ body{
 .container-aside
 {
     display: flex;
+    justify-content: center;
+    background-color: aqua;  
+
     
 
+}
+
+.container-aside_config 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+       position: relative;
+
+}
+.container-aside_config a
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.aside-conf
+{
+    position: absolute;
+    display: flex;
+    top:75vh; 
+}
+
+.container-movie
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+
+}
+.container-movie-post
+{
+    background-color: blue;
+    width: 150px;
+    height: 200px;
 }
